@@ -1,0 +1,13 @@
+extends layout.pug
+
+block content
+    h1 Error Status = (#{err.status})
+    h2= err.message
+    p Sorry but your request was not found 
+    h2 Stack Trace:
+    p= err.stack
+    h2 Click below to go back to the main page
+    nav.nav
+        a(href='/')
+            span &larr;
+            |  Back

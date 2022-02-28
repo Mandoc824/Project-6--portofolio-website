@@ -1,0 +1,69 @@
+{
+  "projects": [
+    {
+      "id": "1",
+      "project_name": "A Random Quote Generator",
+      "description": "An app that displays random famous quotes each time a button is clicked.",
+      "technologies": ["HTML", "CSS", "JAVASCRIPT"],
+      "live_link": "",
+      "github_link": "https://github.com/Mandoc824/Random-Quote-Generator---Project-1",
+      "image_urls": [
+        "/static/images/project1/random-pic1.png",
+        "/static/images/project1/random-pic2.png",
+        "/static/images/project1/random-pic-icon.png"
+      ]
+    },
+    {
+      "id": "2",
+      "project_name": "Data Pagination and Filtering",
+      "description": "Using “pagination” to enhance the usability of a web page",
+      "technologies": ["HTML", "CSS", "JAVASCRIPT"],
+      "live_link": "",
+      "github_link": "https://github.com/Mandoc824/Project-2--Data-Pagination-and-Filtering-",
+      "image_urls": [
+        "/static/images/project2/pagination-pic1.png",
+        "/static/images/project2/pagination-pic2.png",
+        "/static/images/project2/pagination-pic-icon.jpeg"
+      ]
+    },
+    {
+      "id": "3",
+      "project_name": "Interactive Form",
+      "description": "Using vanilla JavaScript to enchance an interactive registration form for a fictional Full Stack conference",
+      "technologies": ["HTML", "CSS", "JAVASCRIPT", "DOM API"],
+      "live_link": "",
+      "github_link": "https://github.com/Mandoc824/Project-3--Build-an-Interactive-Form",
+      "image_urls": [
+        "/static/images/project3/interactive-form-pic1.png",
+        "/static/images/project3/interactive-form-pic2.png",
+        "/static/images/project3/interactive-form-icon.png"
+      ]
+    },
+    {
+      "id": "4",
+      "project_name": "OOP Game Show App",
+      "description": "A Object-Oriented-Progammed Guessing Game App",
+      "technologies": ["HTML", "CSS", "JAVASCRIPT", "DOM API"],
+      "live_link": "",
+      "github_link": "https://github.com/Mandoc824/project-4--oop_game-v2",
+      "image_urls": [
+        "/static/images/project4/oop-game-pic1.png",
+        "/static/images/project4/oop-game-pic2.png",
+        "/static/images/project4/oop-game-pic-icon.png"
+      ]
+    },
+    {
+      "id": "5",
+      "project_name": "Public API Requests",
+      "description": "An app for a fictional company with remote employees. application takes random users from an API and that data is then rendered the page using DOM manipulation",
+      "technologies": ["HTML", "CSS", "JAVASCRIPT", "Fetch API"],
+      "live_link": "",
+      "github_link": "https://github.com/Mandoc824/project-5-public-API-requests",
+      "image_urls": [
+        "/static/images/project5/api-request-pic1.png",
+        "/static/images/project5/api-request-pic2.png",
+        "/static/images/project5/api-request-pic-icon.png"
+      ]
+    }
+  ]
+}
