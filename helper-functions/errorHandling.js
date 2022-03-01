@@ -1,13 +1,12 @@
+//this is the global error handling middleware that will take any errors and evaluate them with an the following conditional statement
 module.exports = (err, req, res, next) => {
-  if (err) {
-    console.log("Global Error Handler called", err.status);
-  }
-
   if (err.status === 404) {
-    res.status(404).render("not-found", { err });
+    console.error("Error Code " + err.status + ": " + err.message);
+    res.status(404).render("page-not-found", { err });
   } else {
-    err.message = `Something went wrong with the server`;
+    err.message = `Something went wrong with the server :(`;
     err.status = 500;
-    res.status(err.status || 500).render("error", { err });
+    console.error("Error Code " + err.status + ": " + err.message);
+    res.status(500).render("error", { err });
   }
 };
